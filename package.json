@@ -1,0 +1,25 @@
+{
+  "name": "psqlhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-D-K/PSQLHelper.git"
+  },
+  "author": "KDK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-D-K/PSQLHelper/issues"
+  },
+  "homepage": "https://github.com/K-D-K/PSQLHelper#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "pg": "^7.11.0",
+    "promise": "^8.0.3"
+  }
+}

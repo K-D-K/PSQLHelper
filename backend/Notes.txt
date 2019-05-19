@@ -1,0 +1,10 @@
+Base Queries:
+	// This query is to list all users of the database
+	select * from pg_catalog.pg_user;
+	// from the above query we'll get sysId of the user. with the help of the sysid we'll get all the schema belongs to the user
+	select nspname from pg_catalog.pg_namespace where nspowner = userSysid;
+	// In the above mentioned query `nspname` is the schema name
+
+Enhancement:
+	Look at nodemon
+	Try to use sequelize (Refer this for more info : https://www.codementor.io/mirko0/how-to-use-sequelize-with-node-and-express-i24l67cuz )
